@@ -1,0 +1,9 @@
+archivos/
+
+node_modules/
+
+composer\.lock
+
+composer\.json
+
+/vendor/

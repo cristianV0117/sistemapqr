@@ -1,0 +1,11 @@
+RewriteEngine on
+# URL AMIGABLE
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME}\.php -f
+	RewriteRule ^(.*)$ $1.php [L]
+# URL AMIGABLE
+Options -Indexes
+
+ErrorDocument 403 /erroresCod/403.html
+ErrorDocument 404 /erroresCod/404.html
+ErrorDocument 500 /erroresCod/500.html

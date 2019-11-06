@@ -1,0 +1,31 @@
+{
+  "name": "pqr",
+  "version": "1.0.0",
+  "description": "Sitio de pqr desarrollado en ZK",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.zkcloud.co/desarrollo-web1/pqr.git"
+  },
+  "keywords": [
+    "pqr"
+  ],
+  "author": "Cristian Camilo Vasquez Osorio",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-fileinput": "^5.0.1",
+    "datatables": "^1.10.18",
+    "datatables.net-bs4": "^1.10.19",
+    "popper.js": "^1.15.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^8.8.1",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1"
+  }
+}
